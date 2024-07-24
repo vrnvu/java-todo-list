@@ -1,6 +1,5 @@
 package com.github.vrnvu.java_todo_list.todos;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
