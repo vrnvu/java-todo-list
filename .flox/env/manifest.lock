@@ -1,0 +1,285 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "gradle_8": {
+        "pkg-path": "gradle_8",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      },
+      "jdk21": {
+        "pkg-path": "jdk21",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      }
+    },
+    "vars": {},
+    "hook": {
+      "on-activate": null
+    },
+    "profile": {
+      "common": null,
+      "bash": null,
+      "zsh": null,
+      "fish": null,
+      "tcsh": null
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "unfree": null,
+        "broken": null,
+        "licenses": []
+      },
+      "semver": {
+        "allow-pre-releases": null
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "gradle_8",
+      "broken": false,
+      "derivation": "/nix/store/6hsv4asmx714aqzdk2sid0hkdlrzf8nd-gradle-8.8.drv",
+      "description": "Enterprise-grade build system",
+      "install_id": "gradle_8",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "gradle-8.8",
+      "pname": "gradle_8",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "gradle-8.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3fs8hpfm12zpanb7a3bnqs2ss8xqrngr-gradle-8.8"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gradle_8",
+      "broken": false,
+      "derivation": "/nix/store/8ngcip3mv9aff69vdw8vrc54rvj7fp0z-gradle-8.8.drv",
+      "description": "Enterprise-grade build system",
+      "install_id": "gradle_8",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "gradle-8.8",
+      "pname": "gradle_8",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "gradle-8.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/kkcmsl72kwvqy5a0igaw79q89mrnk6fq-gradle-8.8"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gradle_8",
+      "broken": false,
+      "derivation": "/nix/store/b4sr158264jyscw7acmz58cfbjwhsgkz-gradle-8.8.drv",
+      "description": "Enterprise-grade build system",
+      "install_id": "gradle_8",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "gradle-8.8",
+      "pname": "gradle_8",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "gradle-8.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1spyx952a1nsskcj46cm0812wnj3svsd-gradle-8.8"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gradle_8",
+      "broken": false,
+      "derivation": "/nix/store/9z24k0byjcm989a4mqh7cspcic1n2kwh-gradle-8.8.drv",
+      "description": "Enterprise-grade build system",
+      "install_id": "gradle_8",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "gradle-8.8",
+      "pname": "gradle_8",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "gradle-8.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/6kl6g48xj86hlic185cp7h4cx1s1w4q4-gradle-8.8"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/wv0bi28m4ra52v78kcclqhah2ihcgxdb-zulu-ca-jdk-21.0.2.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "zulu-ca-jdk-21.0.2",
+      "pname": "jdk21",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-21.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hxskzr9a3m0prpy9l41bnw3rmmahvdb6-zulu-ca-jdk-21.0.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/ypimcn7kry7azlpsfam9v0582f04akgy-openjdk-21.0.3+9.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "openjdk-21.0.3+9",
+      "pname": "jdk21",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-21.0.3+9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/5b1lcnifgphdnx33rk6ll65w5d7hwbka-openjdk-21.0.3+9-debug",
+        "out": "/nix/store/vgryxqidd03i51500895kmlanr78j4x6-openjdk-21.0.3+9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/k963ksk09vkhbsiwxcx9v3kk8s6hd746-zulu-ca-jdk-21.0.2.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "zulu-ca-jdk-21.0.2",
+      "pname": "jdk21",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-21.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/naj6kwxwi4k20x5ngh6sms6n5a0il1x2-zulu-ca-jdk-21.0.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/7b35kyhdbgbxf869hsc4vhyymj8hsa9z-openjdk-21.0.3+9.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "openjdk-21.0.3+9",
+      "pname": "jdk21",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-21.0.3+9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/ys8547v5n6rxhlfjmz73m4ld4wc26ig4-openjdk-21.0.3+9-debug",
+        "out": "/nix/store/k9snfnb9i9yc1ww9r0bb0vah9mgwjw7c-openjdk-21.0.3+9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
