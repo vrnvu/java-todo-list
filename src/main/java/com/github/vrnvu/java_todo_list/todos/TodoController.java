@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.net.URI;
 import java.util.List;
@@ -22,15 +23,14 @@ public class TodoController {
             consumes={"application/json"},
             produces={"application/json"}
     )
-    public ResponseEntity<Void> createTodo(String title) {
-        var todo = todoService.createTodo(title);
+    public ResponseEntity<Void> createTodo(@RequestBody CreateTodoDTO title) {
+        var todo = todoService.createTodo(title.title());
         var uri = URI.create(String.format("/todos/%s", todo.id()));
         return ResponseEntity.created(uri).build();
     }
 
     @GetMapping(
             value="/todos/{id}",
-            consumes={"application/json"},
             produces={"application/json"}
     )
     public ResponseEntity<Todo> getTodo(@PathVariable String id) {
@@ -40,7 +40,6 @@ public class TodoController {
 
     @GetMapping(
             value="/todos",
-            consumes={"application/json"},
             produces={"application/json"}
     )
     public ResponseEntity<List<Todo>> getTodos() {

@@ -17,7 +17,7 @@ class TodoControllerTest {
     void createTodoSuccess() {
         TodoController todoController = new TodoController(todoService);
         var title = "some foo bar baz";
-        ResponseEntity<Void> response = todoController.createTodo(title);
+        ResponseEntity<Void> response = todoController.createTodo(new CreateTodoDTO(title));
 
         assertNotNull(response);
         assertTrue(response.getStatusCode().is2xxSuccessful());
@@ -30,7 +30,7 @@ class TodoControllerTest {
     void getTodoSuccess() {
         TodoController todoController = new TodoController(todoService);
         var title = "some foo bar baz";
-        todoController.createTodo(title);
+        todoController.createTodo(new CreateTodoDTO(title));
 
         ResponseEntity<Todo> response = todoController.getTodo("0");
 
@@ -68,7 +68,7 @@ class TodoControllerTest {
     @Test
     void getTodosSuccessHasOneElement() {
         TodoController todoController = new TodoController(todoService);
-        todoController.createTodo("id");
+        todoController.createTodo(new CreateTodoDTO("id"));
         ResponseEntity<List<Todo>> response = todoController.getTodos();
 
         assertNotNull(response);
