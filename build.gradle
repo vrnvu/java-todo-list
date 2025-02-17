@@ -25,7 +25,7 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	testImplementation 'io.rest-assured:spring-web-test-client:5.5.0'
-	testImplementation 'io.rest-assured:spring-mock-mvc:5.5.0'
+	testImplementation 'io.rest-assured:spring-mock-mvc:5.5.1'
 }
 
 tasks.named('test') {
